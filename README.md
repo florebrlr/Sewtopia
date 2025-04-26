@@ -2,6 +2,37 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
+
+## Todo list
+
+V0
+- [x] Créer un composant HomePage pour la page d'accueil Home page dans /app
+- [x] Créer une route qui redirige vers notre HomePage sur la route '/'
+https://angular.dev/guide/routing/common-router-tasks#defining-a-basic-route 
+
+- [x] Créer les composants dans /app de la page d'accueil : Header, Sidebar, Footer 
+- [x] Pour chaque composant, créer un dossier avec les fichiers .component.ts/.component.css/.component.html 
+- [x] Inclure tous les composants dans la HomePage 
+
+-> Etat final : index.html ne contient que <app-root></app-root> dans son body, et app.component.html ne contient plus de code "par défaut" Angular mais seulement nos composants
+
+- [x] Deuxième page "pattern-list"
+- [ ] Avoir le CSS de tous les composants -> séparer dans des fichiers *.component.css 
+
+V1 
+ 
+Feature "mes patrons" 
+- [ ] Créer un composant PatternCard qui affiche un patron passé en input du composant
+- [ ] Dans PatternListPage, charger une liste de patrons dans un tableau JS (const myPatterns = [...]), et afficher 1 PatternCard par patron (*ngFor)
+- [ ] Faire un composant SearchBar qui émet en output la chaine de caractère recherchée
+- [ ] Importer SearchBar dans PatternListPage et récupérer la recherche. Faire un pipe pour filter les patterns [[A PRECISER]]
+- [ ] Brancher à l'API :) 
+
+
+Bugs
+
+- [ ] Import images
+
 ## Development server
 
 To start a local development server, run:
