@@ -2,6 +2,25 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
+
+## Todo list
+
+V0
+- [ ] Créer un composant HomePage pour la page d'accueil Home page dans /app
+- [ ] Créer une route qui redirige vers notre HomePage sur la route '/'
+https://angular.dev/guide/routing/common-router-tasks#defining-a-basic-route 
+
+- [ ] Créer les composants dans /app de la page d'accueil : Header, Sidebar, Footer 
+- [ ] Pour chaque composant, créer un dossier avec les fichiers .component.ts/.component.css/.component.html 
+- [ ] Inclure tous les composants dans la HomePage 
+
+-> Etat final : index.html ne contient que <app-root></app-root> dans son body, et app.component.html ne contient plus de code "par défaut" Angular mais seulement nos composants
+
+V1 
+Bugs
+
+- [ ] Import images
+
 ## Development server
 
 To start a local development server, run:
