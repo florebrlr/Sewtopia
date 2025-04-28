@@ -7,8 +7,8 @@ import { FavoritePatternsPageComponent } from './favorite-patterns-page/favorite
 
 // Définir les routes
 export const routes: Routes = [
-  { path: '/sewtopia', component: HomePageComponent }, // Page d'accueil
-  { path: 'sewtopia/mes-patrons', component: PatternListComponent },
+  { path: '', component: HomePageComponent }, // Page d'accueil
+  { path: 'mes-patrons', component: PatternListComponent },
   { path: 'convertisseur-mesures', component: ConverterComponent },
   { path: 'calculateur-jupe-cercle', component: CalculatorCircleSkirtComponent },
   { path: 'patrons-favoris', component: FavoritePatternsPageComponent},
