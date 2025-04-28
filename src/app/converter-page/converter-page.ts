@@ -5,8 +5,8 @@ import { SidebarComponent } from '../sidebar/sidebar.component';
 
 @Component({
   selector: 'app-converter',
-  templateUrl: './converter-page.component.html',
-  styleUrls: ['./converter-page.component.css'],
+  templateUrl: './converter-page.html',
+  styleUrl: './converter-page.css',
   imports: [HeaderComponent,FooterComponent,SidebarComponent],
 })
 export class ConverterComponent {

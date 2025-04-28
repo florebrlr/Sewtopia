@@ -3,7 +3,8 @@ import { MenuItemComponent } from '../menu-item/menu-item.component';
 import { WelcomeUserComponent } from '../welcome-user/welcome-user.component';
 @Component({
   selector: 'app-sidebar',
-  templateUrl: './sidebar.compoment.html',
+  templateUrl: './sidebar.component.html',
+  styleUrl: './sidebar.component.css',
   imports: [MenuItemComponent,WelcomeUserComponent],
 })
 export class SidebarComponent {

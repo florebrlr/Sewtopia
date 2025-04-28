@@ -1,8 +1,10 @@
+<div>
+  <app-header />
+  <app-sidebar />
+  <div class="convertisseur">
+    <h2>Convertisseur de Mesures</h2>
 
-<div class="convertisseur">
-  <h2>Convertisseur de Mesures</h2>
-
-  <!-- <input
+    <!-- <input
     type="number"
     [(ngModel)]="valeur"
     placeholder="Entrez la valeur" />
@@ -30,4 +32,6 @@
   <div *ngIf="resultat !== null">
     Résultat : {{ resultat | number:'1.2-4' }} {{ uniteCible }}
   </div> -->
+  </div>
+  <app-footer />
 </div>

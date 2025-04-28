@@ -5,7 +5,8 @@ import { SidebarComponent } from '../sidebar/sidebar.component';
 
 @Component({
   selector: 'calculator-circle-skirt-page',
-  templateUrl: './calculator-circle-skirt-page.coponent.html',
+  templateUrl: './calculator-circle-skirt-page.html',
+  styleUrl: './calculator-circle-skirt-page.css',
   imports: [HeaderComponent,FooterComponent,SidebarComponent],
 })
 export class CalculatorCircleSkirtComponent {}
