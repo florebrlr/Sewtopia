@@ -4,9 +4,9 @@ import { FooterComponent } from '../footer/footer.component';
 import { SidebarComponent } from '../sidebar/sidebar.component';
 
 @Component({
-  selector: 'app-home-page',
-  templateUrl: './home-page.component.html',
-  styleUrl: './home-page.component.css',
+  selector: 'calculator-circle-skirt-page',
+  templateUrl: './calculator-circle-skirt-page.html',
+  styleUrl: './calculator-circle-skirt-page.css',
   imports: [HeaderComponent,FooterComponent,SidebarComponent],
 })
-export class HomePageComponent {}
+export class CalculatorCircleSkirtComponent {}

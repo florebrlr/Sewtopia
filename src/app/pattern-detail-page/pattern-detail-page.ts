@@ -4,9 +4,11 @@ import { FooterComponent } from '../footer/footer.component';
 import { SidebarComponent } from '../sidebar/sidebar.component';
 
 @Component({
-  selector: 'app-home-page',
-  templateUrl: './home-page.component.html',
-  styleUrl: './home-page.component.css',
+  selector: 'pattern-detail-page',
+  templateUrl: './pattern-detail-page.html',
+  styleUrl: './pattern-detail-page.css',
   imports: [HeaderComponent,FooterComponent,SidebarComponent],
 })
-export class HomePageComponent {}
+export class PatternDetailsPageComponent {
+
+}
