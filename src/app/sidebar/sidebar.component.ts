@@ -5,7 +5,7 @@ import { WelcomeUserComponent } from '../welcome-user/welcome-user.component';
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.css',
-  imports: [MenuItemComponent],
+  imports: [MenuItemComponent,WelcomeUserComponent],
 })
 export class SidebarComponent {
 
