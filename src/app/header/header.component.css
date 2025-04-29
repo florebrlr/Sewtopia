@@ -1,0 +1,16 @@
+/*---------------------------------------------*/
+/*                 HEADER                      */
+/*---------------------------------------------*/
+header {
+  position: absolute;
+  padding: var(--10px);
+}
+
+.logo-bobinesetfeeling {
+  display: flex;
+  align-self: flex-start;
+}
+
+.logo-bobinesetfeeling img {
+  width: 25%;
+}

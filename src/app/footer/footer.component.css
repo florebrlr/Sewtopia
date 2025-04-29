@@ -1,0 +1,11 @@
+/*---------------------------------------------*/
+/*                     FOOTER                  */
+/*---------------------------------------------*/
+/*   CLASSES   */
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: var(--20px) 0;
+  text-align: center;
+  width: 100%;
+}

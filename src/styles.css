@@ -1,63 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Quando&family=Roboto:ital,wght@0,100..900&display=swap");
 
 /*---------------------------------------------*/
 /*               GLOBAL STYLES                 */
 /*---------------------------------------------*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-    background-color: var(--BackGround);
-    color: var(--Black);
-    font-size: var(--font-size-default);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--BackGround);
+  color: var(--Black);
+  font-size: var(--font-size-default);
 }
 
 /*---------------------------------------------*/
 /*         DECLARATION DES VARIABLES           */
 /*---------------------------------------------*/
 :root {
-    /* Couleurs */
-    --PrimaryColor: #ecc5f0;
-    --SecondaryColor: #d2f6d3;
-    --AccentColor1: #a563fa;
-    --AccentColor2: #ef94ca;
-    --AccentColor3: #dcefee;
-    --AccentColor4: #7ccdc9;
-    --AccentColor5: #fb6a6a;
-    --AccentColor6: #ffbbd3;
-    --AccentColor7: #7ccdc9;
+  /* Couleurs */
+  --PrimaryColor: #ecc5f0;
+  --SecondaryColor: #d2f6d3;
+  --AccentColor1: #a563fa;
+  --AccentColor2: #ef94ca;
+  --AccentColor3: #dcefee;
+  --AccentColor4: #7ccdc9;
+  --AccentColor5: #fb6a6a;
+  --AccentColor6: #ffbbd3;
+  --AccentColor7: #7ccdc9;
 
-    --White: #fffdfb;
-    --WhitePowderedSugar: #fdfcfa;
-    --Grey: #d9d9d9;
-    --Black: #373d3b;
-    --LightBeige: #fff7ee;
-    --BackGround: var(--LightBeige);
-    --ColorCancelButton: var(--Grey);
-    --ColorHoverButton: var(--AccentColor7);
-    --ColorClic: #fca381;
+  --White: #fffdfb;
+  --WhitePowderedSugar: #fdfcfa;
+  --Grey: #d9d9d9;
+  --Black: #373d3b;
+  --LightBeige: #fff7ee;
+  --BackGround: var(--LightBeige);
+  --ColorCancelButton: var(--Grey);
+  --ColorHoverButton: var(--AccentColor7);
+  --ColorClic: #fca381;
 
-    /* Conversion de px en em */
-    --10px: 0.625em;
-    --12px: 0.75em;
-    --14px: 0.875em;
-    --20px: 1.25em;
-    --40px: 2.5em;
+  /* Conversion de px en em */
+  --10px: 0.625em;
+  --12px: 0.75em;
+  --14px: 0.875em;
+  --20px: 1.25em;
+  --40px: 2.5em;
 
-    /* Font-size */
-    --font-size-default: 1em;
-    --font-size-h1: 1.5em;
-    --font-size-h2: 1.25em;
-    --font-size-h3: 1.15em;
+  /* Font-size */
+  --font-size-default: 1em;
+  --font-size-h1: 1.5em;
+  --font-size-h2: 1.25em;
+  --font-size-h3: 1.15em;
 }
 
 /*---------------------------------------------*/
@@ -65,163 +66,47 @@ body {
 /*---------------------------------------------*/
 /*   CLASSES   */
 h1 {
-    font-family: "quando", sans-serif;
-    padding: var(--10px);
+  font-family: "quando", sans-serif;
+  padding: var(--10px);
 }
 
 h2 {
-    font-size: var(--font-size-h2);
+  font-size: var(--font-size-h2);
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Structure de page */
-.page-wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Prend toute la hauteur de la fenêtre */
-}
-
-.content-container {
-    display: flex;
-    flex: 1; /* Prend tout l'espace disponible entre header et footer */
-}
-
-main {
-    flex: 1; /* Prend l'espace disponible restant */
-    padding: var(--20px);
-}
 
 /*   ID   */
-
-/*---------------------------------------------*/
-/*                 HEADER                      */
-/*---------------------------------------------*/
-header {
-    position: absolute;
-    padding: var(--10px);
-}
-
-.logo-bobinesetfeeling {
-    display: flex;
-    align-self: flex-start;
-}
-
-.logo-bobinesetfeeling img {
-    width: 25%;
-}
-
-/*---------------------------------------------*/
-/*              NAVIGATION MENU                */
-/*---------------------------------------------*/
-/*   CLASSES   */
-.sidebar {
-    background-color: var(--PrimaryColor);
-    width: 20%;
-    padding: var(--20px);
-}
-
-.sidebar li{
-    display: flex;
-    justify-content: space-between;
-    padding: var(--10px);
-    border: 1px solid var(--Black);
-    border-radius: 20px;
-    margin-top: var(--20px);
-}
-
-.sidebar a {
-    text-decoration: none;
-
-
-    color: var(--Black);
-
-}
-
-.sidebar li:hover {
-    font-weight: bold;
-    background-color: var(--BackGround);
-}
-
-.auth-buttons {
-    display: inline-flex;
-    width: 100%;
-    align-self: center;
-}
-
-/*   ID   */
-#icon-star {
-    width: 30px;
-}
 /*---------------------------------------------*/
 /*                  BUTTONS                    */
 /*---------------------------------------------*/
 /*   CLASSES   */
 button {
-    padding: var(--10px) var(--20px);
-    margin: 0 var(--10px);
-    border: 1px solid var(--Black);
-    border-radius: 20px;
-    background-color: transparent;
-    cursor: pointer;
+  padding: var(--10px) var(--20px);
+  margin: 0 var(--10px);
+  border: 1px solid var(--Black);
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .cancel-btn {
-    color: var(--ColorCancelButton);
+  color: var(--ColorCancelButton);
 }
 
 button:hover {
-    background-color: var(--ColorHoverButton);
-    font-weight: bold;
+  background-color: var(--ColorHoverButton);
+  font-weight: bold;
 }
 
-#auth-btns:hover{
-    background-color: var(--BackGround);
+#auth-btns:hover {
+  background-color: var(--BackGround);
 }
-
-/*   ID   */
-
-/*---------------------------------------------*/
-/*                     FOOTER                  */
-/*---------------------------------------------*/
-/*   CLASSES   */
-footer {
-    padding: var(--20px) 0;
-    text-align: center;
-    width: 100%;
-}
-
-/*   ID   */
-
-/*---------------------------------------------*/
-/*                    INDEX                    */
-/*---------------------------------------------*/
-/*   CLASSES   */
-.welcome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 3em;
-}
-
-.catchphrase {
-    font-family: "quando";
-}
-
-/*   ID   */
-
-
-/*==================================================================================*/
-/*---------------------------------------------*/
-/*                   TEMPLATE                  */
-/*---------------------------------------------*/
-/*   CLASSES   */
-/*   ID   */
