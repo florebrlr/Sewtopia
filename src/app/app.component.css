@@ -1,0 +1,12 @@
+/* Structure de page */
+.page-wrapper {
+  display: flex;
+  min-height: 100vh; /* Prend toute la hauteur de la fenêtre */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}

@@ -1,0 +1,25 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  gap:var(--10px);
+  padding: var(--10px);
+  border: 1px solid var(--Black);
+  border-radius: 20px;
+  margin-top: var(--20px);
+}
+
+li label{
+  display: flex;
+  gap:var(--10px);
+
+}
+
+li:hover {
+  font-weight: bold;
+  background-color: var(--BackGround);
+}
+
+a {
+  text-decoration: none;
+  color: var(--Black);
+}

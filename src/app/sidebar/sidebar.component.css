@@ -1,0 +1,34 @@
+/*---------------------------------------------*/
+/*              NAVIGATION MENU                */
+/*---------------------------------------------*/
+/*   CLASSES   */
+aside {
+  font-family: "Quando";
+  height: 100%;
+}
+
+.sidebar {
+  background-color: var(--PrimaryColor);
+  padding: var(--20px);
+}
+
+.auth-buttons {
+  display: inline-flex;
+  width: 100%;
+  align-self: center;
+}
+.auth-buttons button {
+  background-color: var(--BackGround);
+  font-family: "Quando";
+}
+nav {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*   ID   */
+#icon-star {
+  width: 30px;
+}
