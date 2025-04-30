@@ -1,7 +1,9 @@
-<li>
-  <label>
-    <img id="icon-star" src="/img/star.svg" alt="icon star" />
-    <a [routerLink]="link()">{{label()}} </a>
-  </label>
-  <span> > </span>
-</li>
+<a [routerLink]="link()">
+  <li>
+    <label>
+      <menu-icon-star />
+      {{label()}}
+    </label>
+    <menu-icon-chevron-right />
+  </li>
+</a>
