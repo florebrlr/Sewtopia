@@ -1,3 +1,9 @@
+a {
+  text-decoration: none;
+  color: var(--Black);
+  cursor: pointer;
+}
+
 li {
   display: flex;
   justify-content: space-between;
@@ -11,6 +17,7 @@ li {
 li label{
   display: flex;
   gap:var(--10px);
+  cursor: pointer;
 
 }
 
@@ -19,7 +26,3 @@ li:hover {
   background-color: var(--BackGround);
 }
 
-a {
-  text-decoration: none;
-  color: var(--Black);
-}

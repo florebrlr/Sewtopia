@@ -1,6 +1,9 @@
-<li>
-  <menu-icon-star/>
-  <a [routerLink]="link()">{{label()}} </a>
-  <menu-icon-chevron-right/>
-</li>
-
+<a [routerLink]="link()">
+  <li>
+    <label>
+      <menu-icon-star />
+      {{label()}}
+    </label>
+    <menu-icon-chevron-right />
+  </li>
+</a>
